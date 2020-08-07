@@ -1,5 +1,5 @@
 # android_device_xiaomi_ginkgo
-For building TWRP for Xiaomi Redmi Note 8
+For building PBRP for Xiaomi Redmi Note 8
 
 TWRP device tree for Xiaomi Redmi Note 8
 
@@ -32,7 +32,7 @@ repo sync
 Then add these projects to .repo/manifest.xml:
 
 ```xml
-<project path="device/xiaomi/ginkgo" name="mauronofrio/android_device_xiaomi_ginkgo" remote="github" revision="android-9.0" />
+<project path="device/xiaomi/ginkgo" name="DqrKn3Zz/device_xiaomi_ginkgo_recovery" remote="github" revision="pbrp" />
 ```
 
 Finally execute these:
